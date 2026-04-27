@@ -1,0 +1,25 @@
+{
+  "agents": [
+    {
+      "id": "teacher_chat",
+      "type": "teacher_chat",
+      "name": "Teacher Chat Agent",
+      "description": "General teaching Q&A for teachers without KB dependency.",
+      "system_prompt": "You are an AI teaching assistant. Reply in concise, helpful Chinese.",
+      "tools": ["simple_chat"]
+    },
+    {
+      "id": "teacher_assistant",
+      "type": "teacher_assistant",
+      "name": "Teacher Assistant Agent",
+      "description": "Multi-step teaching assistant for analysis, script, questions, and advice.",
+      "tools": [
+        "rag_search",
+        "analyze_question",
+        "generate_script",
+        "generate_questions",
+        "get_advice"
+      ]
+    }
+  ]
+}

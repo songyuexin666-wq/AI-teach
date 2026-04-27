@@ -1,0 +1,55 @@
+# FastAPI 核心依赖
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# 数据库相关
+sqlalchemy==2.0.23
+pymysql==1.1.0
+alembic==1.12.1
+
+# AI 和机器学习
+openai==1.3.7
+python-dotenv==1.0.0
+
+# 文档处理
+python-pptx==0.6.23
+# PDF 转 Markdown（知识库上传 PDF 时使用；仅使用本地模型，不下载。可运行 scripts/preload_marker_models.py 校验本地模型）
+marker-pdf>=1.0.0
+
+# 数学公式和图片处理
+matplotlib==3.7.2
+sympy==1.12
+Pillow==10.0.1
+latex2mathml==3.76.0
+
+# 视频音频处理
+ffmpeg-python==0.2.0
+
+# 视频生成
+manim==0.17.3
+
+# 文本转语音
+pyttsx3==2.90
+
+# HTTP 客户端
+httpx==0.25.2
+requests==2.31.0
+protobuf>=4.25.3
+
+# 数据处理
+pydantic==2.5.0
+numpy==1.24.3
+
+# 日志和监控
+loguru==0.7.2
+
+# 开发工具
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+
+# 其他工具
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4

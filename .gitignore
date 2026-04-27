@@ -1,0 +1,8 @@
+exports/
+*.tar
+**/venv/
+**/target/
+**/outputs/
+**/temp/
+**/.env
+**/.env.*
